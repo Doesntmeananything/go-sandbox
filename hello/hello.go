@@ -10,6 +10,8 @@ const spanishHelloPrefix = "Hola, "
 const frenchHelloPrefix = "Bonjour, "
 const germanHelloPrefix = "Hallo, "
 
+// Hello says greetings for a given name and language.
+// Language options are: Spanish, French, German, English (default).
 func Hello(name string, language string) string {
 	if name == "" {
 		name = "world"
